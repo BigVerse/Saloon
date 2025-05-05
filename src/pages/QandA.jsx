@@ -16,6 +16,7 @@ const faqData = [
 function QandA() {
   const [openIndex, setOpenIndex] = useState(null);
   const [reviewImages, setReviewImages] = useState([]);
+  console.log("test")
 
   const toggleFAQ = (index) => {
     setOpenIndex(openIndex === index ? null : index);
