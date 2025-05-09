@@ -3,27 +3,27 @@ import ImageCarousel from "../contact/ImageCarousel";
 
 const packages = [
   {
-    title: "Hair Plus",
-    price: "₹16,500",
-    features: ["Cutting", "Coloring", "Styling"],
+    title: "Emerald",
+    price: "₹10,500",
+    features: ["4 Swedish Spa", "1 Deep Tissue Spa", "1 D-Tan"],
     bgColor: "bg-[#D99874]",
     height: "h-[450px]",
     zIndex: "z-10",
     position: "lg:-translate-x-24", // Moves left
   },
   {
-    title: "Premium",
-    price: "₹41,500",
-    features: ["Hair Pack", "Cutting", "Coloring"],
+    title: "Sapphire",
+    price: "₹15,500",
+    features: ["6 Swedish Spa", "1 Deep Tissue Spa", "1 Aroma Spa","1 Pedicure","1 D-Tan"],
     bgColor: "bg-[#EAE3D2]",
     height: "h-[500px]",
     zIndex: "z-20",
     position: "lg:-translate-y-12", // Centered
   },
   {
-    title: "Supreme",
-    price: "₹24,900",
-    features: ["Hair Pack", "Cutting", "Styling"],
+    title: "Diamond",
+    price: "₹20,500",
+    features: ["7 Swedish Spa", "2 Deep Tissue Spa", "2 Aroma Spa","2 Pedicure","2 D-Tan"],
     bgColor: "bg-[#C4C3C3]",
     height: "h-[450px]",
     zIndex: "z-10",

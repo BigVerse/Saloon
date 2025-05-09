@@ -27,7 +27,7 @@ function SecondSection() {
         fill="transparent"
       />
     </svg>
-        <h1 className="text-black text-2xl mb-12">ANGELIC SALON</h1>
+        <h1 className="text-black text-2xl mb-12">ANGELIC UNISEX SALON & SPA</h1>
       </div>
           <header>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif  mb-4 sm:mb-6">

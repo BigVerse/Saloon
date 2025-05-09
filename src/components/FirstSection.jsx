@@ -15,7 +15,7 @@ function FirstSection() {
         <img
           src={bgImage}
           alt="Background"
-          className="w-full h-screen  object-cover object-[70%] translate-y- sm:object-center"
+          className="w-full h-screen  object-cover object-[10%] translate-y- sm:object-center"
         />
       </div>
 
