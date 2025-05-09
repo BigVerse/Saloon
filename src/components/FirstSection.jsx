@@ -1,5 +1,6 @@
 import React from 'react';
 import bgImage from '../assets/bgImage.png';
+import bgImageBig from '../assets/bgImagebig.jpg';
 import ImageCarousel from '../components/ImageCarousel';
 
 import '../css/style.css';
@@ -12,29 +13,36 @@ function FirstSection() {
   return (
     <div className="relative min-h-screen">
       <div className="absolute top-0 w-full h-full">
+        {/* Small screen image */}
         <img
           src={bgImage}
           alt="Background"
-          className="w-full h-screen  object-cover object-[10%] translate-y- sm:object-center"
+          className="w-full h-[110%]  object-cover  sm:hidden"
+        />
+        {/* Large screen image */}
+        <img
+          src={bgImageBig}
+          alt="Background"
+          className="hidden sm:block w-full h-screen object-cover object-center"
         />
       </div>
 
-      <div className="absolute top-0 w-full h-full bg-gradient-to-t from-black via-black/30 to-transparent sm:bg-none"></div>
 
-      <div className="relative z-10 w-full h-full flex flex-col justify-center px-5 translate-y-20 sm:px-10 lg:px-[10%] gap-5 pt-40 sm:pt-28 lg:pt-40">
+
+      <div className="relative z-10 w-full h-full flex flex-col justify-center  px-5 translate-y-20 sm:px-10 lg:px-[10%] gap-5 pt-40 sm:pt-28 lg:pt-40">
         <div className="flex flex-col justify-center items-center sm:items-start text-center sm:text-left">
-          
-          <img src={tagline1}/>
-          <img src={tagline2}/>
+
+          <img src={tagline1} />
+          <img src={tagline2} />
 
 
           <div className="flex flex-wrap justify-center sm:justify-start gap-3 sm:gap-5 mt-4">
-            <button className="mt-20 sm:mt-0 learn-more bg-[#282936] text-white sm:bg-transparent sm:text-inherit rounded-full">
-  <span aria-hidden="true" className="circle">
-    <span className="icon arrow"></span>
-  </span>
-  <span className="button-text text-white sm:text-inherit">Shop Now</span>
-</button>
+            <button className="mt-20 sm:mt-0 learn-more bg-[#282936] text-white bg-transparent sm:text-inherit rounded-full">
+              <span aria-hidden="true" className="circle">
+                <span className="icon arrow"></span>
+              </span>
+              <span className="button-text text-white sm:text-inherit">Shop Now</span>
+            </button>
 
 
             <button
@@ -58,20 +66,7 @@ function FirstSection() {
         </div>
       </div>
 
-      {/* Wavy Divider */}
-      <svg
-        className="absolute bottom-0 translate-y-0 sm:translate-y-72 w-full"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 120"
-      >
-        <path
-  fill="#4B5563"
-  fillOpacity="1"
-  d="M0,60 Q72,100 144,60 T288,60 T432,60 T576,60 T720,60 T864,60 T1008,60 T1152,60 T1296,60 T1440,60 L1440,120 L0,120 Z"
-/>
 
-
-      </svg>
     </div>
   );
 }

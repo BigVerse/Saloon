@@ -25,7 +25,7 @@ const packages = [
     price: "₹20,500",
     features: ["7 Swedish Spa", "2 Deep Tissue Spa", "2 Aroma Spa","2 Pedicure","2 D-Tan"],
     bgColor: "bg-[#C4C3C3]",
-    height: "h-[450px]",
+    height: "h-[500px]",
     zIndex: "z-10",
     position: "lg:translate-x-24", // Moves right
   },
